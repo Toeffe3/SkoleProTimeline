@@ -2,18 +2,38 @@ data = {
   "events": [
     {
 			"Year": "3000 BC",
-      "Title:": "Papyrus",
+      "Title": "Papyrus",
 			"Desc": "Papyrusen er den første form for papir. dog var den ikke papir, den var flettet af en form for stof/ eller planter"
 		},
     {
       "Year": "1000 BC",
-      "Title:": "Postvæsnet",
+      "Title": "Postvæsnet",
       "Desc": "Det første form for postlevering kom til, og gjorde det muligt at sende en besked over lange distancer"
     },
     {
-      "Year": "1000 BC",
-      "Title:": "Postvæsnet",
-      "Desc": "Det første form for postlevering kom til, og gjorde det muligt at sende en besked over lange distancer"
+      "Year": "59 BC",
+      "Title:": "Avisen",
+      "Desc": "Den første avis der blev skrevet, der menes at den oprindelse i indien"
+    },
+    {
+      "Year": "100 AC",
+      "Title:": "Papir",
+      "Desc": "Papir var en forbrænding af papyrusen, den var mere holdbar og nemmere at skrive på. Dette gjorde at det nu var muligt at beskederne holder længere"
+    },
+    {
+      "Year": "1000 AC",
+      "Title:": "Griffel",
+      "Desc": "Skriveredskab man brugte til at skrive på vokstavler"
+    },
+    {
+      "Year": "1500 AC",
+      "Title:": "Print Pressen",
+      "Desc": "Print pressen gjorde det nemt at skrive kopier af samme papir, print pressen blev brugt til at trykke bøger og papir"
+    },
+    {
+      "Year": "1800 AC",
+      "Title:": "Skrive Maskinen",
+      "Desc": "Skrivemaskinen er effektivisering at den traditionelle dette gjorde det nemmere at skrive lange beskeder på papir."
     }
 	]
 }
