@@ -34,11 +34,9 @@ function hover() {
     }
     h++;
     fill(255);
-    stroke(255);
     textSize(10);
-    console.log(data.events[i].Year);
     text(data.events[i].Year, i*size, height/2-10+(h%2)*30, size, 10);
-    text(data.events[i].Title, i*size, height/2-10+(h%2)*40, size, 10);
+    text(data.events[i].Title, i*size, height/2-10+(h%1)*30, size, 10);
   }
 
 }
