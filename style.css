@@ -3,5 +3,12 @@ body {
   margin: 0;
   background-color: #000;
   position: fixed;
-  left: calc(50vw - 1500px/2);
+  left: calc(50vw - 50vw + 50px);
+}
+
+#thumbnail {
+  position: fixed;
+  height: 100px;
+  left: calc(50vw - 50px);
+  bottom: 100px;
 }
