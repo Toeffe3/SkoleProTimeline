@@ -8,19 +8,20 @@ function draw() {
   var size = width / data.events.length - .1;
   background(0);
   for (var i = 0; i < data.events.length; i++) {
-    if (mouseX >= i*size && mouseY >= height/2-5 && mouseX <= i*size+size && mouseY <= height/2-5+10) {
+    if (mouseX >= i*size /*&& mouseY >= height/2-5*/ && mouseX <= i*size+size /*&& mouseY <= height/2-5+10*/) {
       fill(42, 200, 255);
+      noStroke()
       rect(i*size, height/2-5, size, 10);
       if(i*size >= width - 250) {
-        rect(width-250, 120, 250, 150);
+        rect(width-250, height/2-140, width/2+20, 100);
         fill(255);
         noStroke();
-        text(data.events[i].Desc, width-250+4, 124, 246, 246);
+        text(data.events[i].Desc, width-250+4, height/2-140+4, 246, 100-4);
       } else {
-        rect(i*size, 120, 250, 150);
+        rect(i*size, height/2-140, 250, 100);
         fill(255);
         noStroke();
-        text(data.events[i].Desc, i*size+4, 124, 246, 246);
+        text(data.events[i].Desc, i*size+4, height/2-140+4, 246, 100-4);
       }
 
     } else {
