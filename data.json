@@ -1,28 +1,14 @@
 data = {
   "events": [
     {
-			"Year": "2000",
-			"Desc": "Internet er gundlagt"
+			"Year": "3000 BC",
+      "Title:": "Papyrus",
+			"Desc": "Papyrusen er den første form for papir. dog var den ikke papir, den var flettet af en form for stof/ eller planter"
 		},
-		{
-			"Year": "2000",
-			"Desc": "Internet er gundlagt"
-		},
-		{
-			"Year": "2000",
-			"Desc": "Internet er gundlagt"
-		},
-		{
-			"Year": "2000",
-			"Desc": "Internet er gundlagt"
-		},
-		{
-			"Year": "2000",
-			"Desc": "Internet er gundlagt"
-		},
-		{
-			"Year": "2000",
-			"Desc": "Internet er gundlagt"
-		}
+    {
+      "Year": "1000 BC",
+      "Title:": "Postvæsnet",
+      "Desc": "Det første form for postlevering kom til, og gjorde det muligt at sende en besked over lange distancer"
+    },
 	]
 }
