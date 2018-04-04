@@ -1,8 +1,9 @@
 console.log(data.events.length);
 var tlbox = {};
+var h = 0;
 
 function setup() {
-  createCanvas(600,600);
+  createCanvas(1400,600);
   background(0);
 
   stroke(255);
@@ -29,6 +30,10 @@ function hover() {
     } else {
       fill(255-(i*20),112-(i*20),19);
       tlbox[i] = rect(i*size, height/2-5, size, 10);
+      h++;
+      fill(255);
+
+      text(i, height/2+(h%2*10), data.events[i].Year)
     }
   }
 }
