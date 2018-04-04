@@ -1,4 +1,7 @@
 body {
   padding: 0;
   margin: 0;
+  background-color: #000;
+  position: fixed;
+  left: calc(50vw - 1500px/2);
 }

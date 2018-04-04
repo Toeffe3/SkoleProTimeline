@@ -27,12 +27,12 @@ data = {
     },
     {
       "Year": "1500 AC",
-      "Title": "Print Pressen",
+      "Title": "Printpressen",
       "Desc": "Print pressen gjorde det nemt at skrive kopier af samme papir, print pressen blev brugt til at trykke bøger og papir"
     },
     {
       "Year": "1800 AC",
-      "Title": "Skrive Maskinen",
+      "Title": "Skrivemaskinen",
       "Desc": "Skrivemaskinen er effektivisering at den traditionelle dette gjorde det nemmere at skrive lange beskeder på papir"
     },
     {
