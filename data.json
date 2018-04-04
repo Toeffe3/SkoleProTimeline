@@ -39,6 +39,66 @@ data = {
       "Year": "1838 AC",
       "Title": "Telegrafen",
       "Desc": "Telegrafen var den første elektroniske langdistance kommunikations enhed. Det gjorde det muligt at sende og modtage beskeder via radiosignaler"
+    },
+    {
+      "Year": "1848 AC",
+      "Title": "Telefonen",
+      "Desc": "Telefonen var en af de allerførste langdistance kommunikations enhed, den virkede ved at sende elektroner gennem ledninger"
+    },
+    {
+      "Year": "1883 AC",
+      "Title": "Fyldepennen",
+      "Desc": "Fyldepennen gjorde det nemmere at skrive med blæk. Det var en forbedring af fjerpennen som kunne være utæt."
+    },
+    {
+      "Year": "1896 AC",
+      "Title": "Radio",
+      "Desc": "Radioen er en af de nyere trådløse kommunikationsenheder. der sender lyd over radiobølger."
+    },
+    {
+      "Year": "1897 AC",
+      "Title": "Computeren",
+      "Desc": "Computeren er fundamentet for alt digital kommunikation. Computeren kan sende og modtage og behandle data opbevaret i 1’ere og 0’er"
+    },
+    {
+      "Year": "1927 AC",
+      "Title": "TV",
+      "Desc": "TV’et var en udvidelse af computeren som gjorde det muligt at modtage digitale signaler via kabler"
+    },
+    {
+      "Year": "1957 AC",
+      "Title": "Satelitter",
+      "Desc": "Satellitter gjorde det muligt at sende TV signaler over lange distancer og gjorde det derfor muligt for befolkningen at modtage information over lange distancer"
+    },
+    {
+      "Year": "1983 AC",
+      "Title": "Internettet",
+      "Desc": "Internettet var nok en af nutidens største opfindelser der revolutionerede kommunikation og gjorde det muligt at kommunikere og sende data over lange strækningere"
+    },
+    {
+      "Year": "1980 AC",
+      "Title": "1G netværket",
+      "Desc": "1G netværket revolutionerede telekommunikation og gjorde det muligt at ringe og sende SMS’er trådløst."
+    },
+    {
+      "Year": "1990 AC",
+      "Title": "2G netværket",
+      "Desc": "2G netværk er en opgradering til 1G, 2G netværket gør at du kan sende SMS’er og MMS’er"
+    },
+    {
+      "Year": "2001 AC",
+      "Title": "3G netværket",
+      "Desc": "3G netværket er en hurtigere og bedre model af 2G netværket, 3G giver dig muligheden for at surfe på internettet uden at være forbundet til et wifi hotspot"
+    },
+    {
+      "Year": "2012 AC",
+      "Title": "4G netværket",
+      "Desc": "4G netværket er en hurtigere model at det tidligere opfundet 3G netværk"
+    },
+    {
+      "Year": "2018 AC",
+      "Title": "5G netværket",
+      "Desc": "5G netværket er den nyeste form for teknologi som gør det muligt at sende og modtage data på samme tid hvilket gør det marginalt hurtigere og bedre end 4G"
     }
 	]
 }
