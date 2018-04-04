@@ -1,22 +1,9 @@
-console.log(data.events.length);
-
 function setup() {
   createCanvas(1500,800);
-
-  stroke(255);
-  strokeWeight(3);
-  line(0, height/2, width, height/2);
-
-  stroke(0);
-  strokeWeight(2);
   var size = width / data.events.length - .1;
 }
 
 function draw() {
-  hover();
-}
-
-function hover() {
   var h = 0;
   var size = width / data.events.length - .1;
   background(0);
@@ -25,15 +12,15 @@ function hover() {
       fill(42, 200, 255);
       rect(i*size, height/2-5, size, 10);
       if(i*size >= width - 250) {
-        rect(width-250, 20, 250, 150);
+        rect(width-250, 120, 250, 150);
         fill(255);
         noStroke();
-        text(data.events[i].Desc, width-250+4, 20+4, 250-4, 150-4);
+        text(data.events[i].Desc, width-250+4, 124, 246, 246);
       } else {
-        rect(i*size, 20, 250, 150);
+        rect(i*size, 120, 250, 150);
         fill(255);
         noStroke();
-        text(data.events[i].Desc, i*size+4, 24, 250-4, 150-4);
+        text(data.events[i].Desc, i*size+4, 124, 246, 246);
       }
 
     } else {
@@ -41,6 +28,8 @@ function hover() {
       rect(i*size, height/2-5, size, 10);
     }
     h++;
+    stroke(0);
+    strokeWeight(2);
     fill(255);
     textSize(10);
     textStyle(NORMAL);
