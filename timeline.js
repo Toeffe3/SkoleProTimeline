@@ -35,8 +35,11 @@ function hover() {
     h++;
     fill(255);
     textSize(10);
-    text(data.events[i].Year, i*size, height/2-10+(h%2)*30, size, 10);
-    text(data.events[i].Title, i*size, height/2-10+(h%1)*30, size, 10);
+    textStyle(NORMAL);
+    text(data.events[i].Year, i*size, height/2-(h%2*25)+8, size, 10);
+    textSize(12);
+    textStyle(BOLD);
+    text(data.events[i].Title, i*size, height/2-(h%2*50)+19, size, 12);
   }
 
 }
