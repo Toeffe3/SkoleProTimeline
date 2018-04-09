@@ -8,7 +8,7 @@ body {
 
 #thumbnail {
   position: fixed;
-  height: 100px;
+  width: 200px;
   left: calc(50vw - 50px);
   bottom: 100px;
 }
